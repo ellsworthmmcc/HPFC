@@ -4,7 +4,7 @@ Author: Ellsworth McCullough
 
 ## How to use:
 
-## Argumets Explanation:
+## Arguments Explanation:
 
 example; valid values; description
 
