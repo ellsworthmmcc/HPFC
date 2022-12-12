@@ -1,10 +1,10 @@
 # Height-Prediction-based-on-Facial-Characteristics
 Author: Ellsworth McCullough
-##Github Link: https://github.com/ellsworthmmcc/HPFC
+## Github Link: https://github.com/ellsworthmmcc/HPFC
 
-##How to use:
+## How to use:
 
-##Argumets Explanation:
+## Argumets Explanation:
 
 example; valid values; description
 
