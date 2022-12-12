@@ -4,7 +4,15 @@ Author: Ellsworth McCullough
 
 ## How to use:
 
+Program start is contained within hpfc. If not entire project from github, would be best to have the following python packages pre-installed:
+os, pathlib, pickle, pandas, numpy, sklearn, cv2, mediapipe, random, math, matplotlib
+
 ## Arguments Explanation:
+### Changing Arguments
+
+When changing arguments it is best to not anything unnessecary spaces or deviate from the valid values for each argument described below. Arguments should be kept on their seperate lines and when changing the user should not unnessecary lines or remove arguments entirely.
+
+### Arguments Meaning
 
 example; valid values; description
 
