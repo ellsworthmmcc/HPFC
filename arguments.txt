@@ -1,0 +1,15 @@
+iterations:1
+ordered:True
+directory:Data\Pictures
+pc:40
+fla:468
+ran:5
+lin_model:True
+bay_ridge_model:True
+ard_model:True
+n_iter:100
+mae:0.8
+r2:1.4
+mse:0.4
+rmse:0.2
+ofs:1.2
