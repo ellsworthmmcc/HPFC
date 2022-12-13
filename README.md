@@ -28,6 +28,8 @@ From there find the decompressed folder, select it with your mouse, and then cli
 ![Opening Folder](https://user-images.githubusercontent.com/81348353/207202664-134e2390-574a-4feb-bf13-1cdd2ce706a0.PNG)
 
 ### Step 5:
+Word of warning, there will most likely be some error warnings related to git, these can be safely ignored.
+
 From here, to get to running the program, double click hpfc.py on the left sidebar to open it.
 ![hpfc sidebar](https://user-images.githubusercontent.com/81348353/207202806-6109e338-8f39-404e-a122-780ab956a2e4.PNG)
 
