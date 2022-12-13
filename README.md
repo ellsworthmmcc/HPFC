@@ -20,6 +20,7 @@ Decompress the downloaded folder using winRAR in whatever location on your compu
 
 ### Step 3:
 Open PyCharm and select the open option.
+
 ![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
 This should be the default menu when opening PyCharm, if you do not see this menu it is likely you are in a folder and would need to go to file->open to get to the same place.
 
