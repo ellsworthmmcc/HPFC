@@ -12,7 +12,7 @@ Assumes you have roughly about 1 Gigbyte of space or more available.
 
 
 ### Step 1:
-Download from GitHub
+Download the code from the GitHub repository.
 ![download zip](https://user-images.githubusercontent.com/81348353/207201784-3dcf7ab3-9b0f-4454-bfac-4252dea9e47b.PNG)
 
 ### Step 2:
