@@ -4,9 +4,12 @@ Author: Ellsworth McCullough
 
 ## How to use:
 
-Assumes you are on Windows 10, using PyCharmm, and that you have winRAR.
+Assumes you are on Windows 10, are using PyCharmm, and that you have winRAR.
+PyCharm download:https://www.jetbrains.com/pycharm/download/#section=windows
+winRAR download: https://www.win-rar.com/download.html?&L=0
 
-Assumes you have about 1 Gigbyte of space available and are using PyCharm.
+Assumes you have roughly about 1 Gigbyte of space or more available.
+
 
 ### Step 1:
 Download from GitHub
@@ -34,7 +37,18 @@ The next step is to either press run button in the topright of the pycharm windo
 From here the program should run and go through 1 iteration. This is unlikely to produce a better model, so it should instead most likely display the previous best's graphs with matplotlib windows and the metrics inside the console.
 
 ### Step 7:
-If you would like to attempt to produce new better models you can change the settings contained with arguments.txt to make that possible. An explanation for how to do that and what each argument is will be below.
+If you would like to attempt to produce new better models you can change the settings contained with arguments.txt to make that possible. An explanation for how to do that and what each argument is will be below. The current model was produced using the arguments given in the photo with only one change, the amount of iterations.
+
+![arguments example](https://user-images.githubusercontent.com/81348353/207203467-1ccb6ee8-87fe-4646-86c9-9102ae1d0091.PNG)
+
+Created models are storage under Data/Models, if a model is unsatisfactory it is recommended to delete models started from the highest model, ie. model_x, with x being the highest in the list, until a satisfactory model is reached. Deleting models that are not the highest model will result in errors. If the models are not listed in the folder as:
+
+model_0
+model_n
+model_(n+1)
+...
+
+Errors will occur. It is possible to rename models to fix this error.
 
 ## Arguments Explanation:
 ### Changing Arguments
