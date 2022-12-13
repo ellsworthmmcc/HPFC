@@ -4,11 +4,11 @@
 
 ## How to use:
 
-Assumes you are on Windows 10, are using PyCharmm, and that you have winRAR.
+This guide assumes you are on Windows 10, are using PyCharm, and that you have winRAR.
 PyCharm download:https://www.jetbrains.com/pycharm/download/#section=windows
 winRAR download: https://www.win-rar.com/download.html?&L=0
 
-Assumes you have roughly about 1 Gigbyte of space or more available.
+It also makes the assumption you have a minimum about roughly about 1 Gigabyte of space or more available.
 
 
 ### Step 1:
@@ -20,21 +20,21 @@ Decompress the downloaded folder using winRAR in whatever location on your compu
 
 ### Step 3:
 Open PyCharm and select the open option.
-.![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
-this should be the default menu when opening PyCharm, if you do not see this menu it is likely you are in a folder and would need to go to file->open to get to the same place.
+![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
+This should be the default menu when opening PyCharm, if you do not see this menu it is likely you are in a folder and would need to go to file->open to get to the same place.
 
 ### Step 4:
 From there find the decompressed folder, select it with your mouse, and then click ok to open it using PyCharm.
 ![Opening Folder](https://user-images.githubusercontent.com/81348353/207202664-134e2390-574a-4feb-bf13-1cdd2ce706a0.PNG)
 
 ### Step 5:
-Word of warning, there will most likely be some error warnings related to git, these can be safely ignored.
+Word of warning, there will most likely be some error warnings related to git in the bottom right, these can be safely ignored.
 
 From here, to get to running the program, double click hpfc.py on the left sidebar to open it.
 ![hpfc sidebar](https://user-images.githubusercontent.com/81348353/207202806-6109e338-8f39-404e-a122-780ab956a2e4.PNG)
 
 ### Step 6:
-The next step is to either press run button in the topright of the pycharm window or use the keybinding "Shift+F10" to run the program.
+The next step is to either press the run button in the top right of the pycharm window or use the keybinding "Shift+F10" to run the program.
 ![run pycharm](https://user-images.githubusercontent.com/81348353/207203066-36608691-0415-4958-bda6-9a712847f9f8.PNG)
 
 From here the program should run and go through 1 iteration. This is unlikely to produce a better model, so it should instead most likely display the previous best's graphs with matplotlib windows and the metrics inside the console.
@@ -44,14 +44,14 @@ If you would like to attempt to produce new better models you can change the set
 
 ![arguments example](https://user-images.githubusercontent.com/81348353/207203467-1ccb6ee8-87fe-4646-86c9-9102ae1d0091.PNG)
 
-Created models are storage under Data/Models, if a model is unsatisfactory it is recommended to delete models started from the highest model, ie. model_x, with x being the highest in the list, until a satisfactory model is reached. Deleting models that are not the highest model will result in errors. If the models are not listed in the folder as:
+Created models are stored under Data/Models, if a model is unsatisfactory it is recommended to delete models starting from the highest model, ie. model_x, with x being the highest in the list, until a satisfactory model is reached. Deleting models that are not the highest model will result in errors. If the models are not listed in the folder as:
 
 model_0
 model_n
 model_(n+1)
 ...
 
-Errors will occur. It is possible to rename models to fix this error.
+Errors will occur. It is possible to rename and remove models to fix this error.
 
 ## Arguments Explanation:
 ### Changing Arguments
