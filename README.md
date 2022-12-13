@@ -4,8 +4,37 @@ Author: Ellsworth McCullough
 
 ## How to use:
 
-Program start is contained within hpfc. If not entire project from github, would be best to have the following python packages pre-installed:
-os, pathlib, pickle, pandas, numpy, sklearn, cv2, mediapipe, random, math, matplotlib
+Assumes you are on Windows 10, using PyCharmm, and that you have winRAR.
+
+Assumes you have about 1 Gigbyte of space available and are using PyCharm.
+
+### Step 1:
+Download from GitHub
+![download zip](https://user-images.githubusercontent.com/81348353/207201784-3dcf7ab3-9b0f-4454-bfac-4252dea9e47b.PNG)
+
+### Step 2:
+Decompress the downloaded folder using winRar wherever you please.
+
+### Step 3:
+Open PyCharm and select the open option.
+.![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
+
+### Step 4:
+From there find the decompressed folder, select it with your mouse, and then click ok to open it using PyCharm.
+![Opening Folder](https://user-images.githubusercontent.com/81348353/207202664-134e2390-574a-4feb-bf13-1cdd2ce706a0.PNG)
+
+### Step 5:
+From here, to get to running the program, double click hpfc.py on the left sidebar to open it.
+![hpfc sidebar](https://user-images.githubusercontent.com/81348353/207202806-6109e338-8f39-404e-a122-780ab956a2e4.PNG)
+
+### Step 6:
+The next step is to either press run button in the topright of the pycharm window or use the keybinding "Shift+F10" to run the program.
+![run pycharm](https://user-images.githubusercontent.com/81348353/207203066-36608691-0415-4958-bda6-9a712847f9f8.PNG)
+
+From here the program should run and go through 1 iteration. This is unlikely to produce a better model, so it should instead most likely display the previous best's graphs with matplotlib windows and the metrics inside the console.
+
+### Step 7:
+If you would like to attempt to produce new better models you can change the settings contained with arguments.txt to make that possible. An explanation for how to do that and what each argument is will be below.
 
 ## Arguments Explanation:
 ### Changing Arguments
