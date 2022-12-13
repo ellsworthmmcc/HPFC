@@ -54,7 +54,7 @@ Errors will occur. It is possible to rename models to fix this error.
 ## Arguments Explanation:
 ### Changing Arguments
 
-When changing arguments it is best to not anything unnessecary spaces or deviate from the valid values for each argument described below. Arguments should be kept on their seperate lines and when changing the user should not unnessecary lines or remove arguments entirely.
+When changing arguments it is best to not anything add spaces or deviate from the valid values for each argument described below. Arguments should be kept on their seperate lines and when changing the user should not add unnessecary lines or remove arguments entirely, doing so will most likely result in errors.
 
 ### Arguments Meaning
 
