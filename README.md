@@ -16,11 +16,12 @@ Download from GitHub
 ![download zip](https://user-images.githubusercontent.com/81348353/207201784-3dcf7ab3-9b0f-4454-bfac-4252dea9e47b.PNG)
 
 ### Step 2:
-Decompress the downloaded folder using winRar wherever you please.
+Decompress the downloaded folder using winRAR in whatever location on your computer of your selection.
 
 ### Step 3:
 Open PyCharm and select the open option.
 .![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
+this should be the default menu when opening PyCharm, if you do not see this menu it is likely you are in a folder and would need to go to file->open to get to the same place.
 
 ### Step 4:
 From there find the decompressed folder, select it with your mouse, and then click ok to open it using PyCharm.
