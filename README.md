@@ -10,6 +10,7 @@ winRAR download: https://www.win-rar.com/download.html?&L=0
 
 It also makes the assumption you have a minimum about roughly about 1 Gigabyte of space or more available.
 
+If this project has already been downloaded through other means, skip to Step 4.
 
 ### Step 1:
 Download the code from the GitHub repository.  
