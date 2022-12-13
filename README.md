@@ -12,37 +12,35 @@ It also makes the assumption you have a minimum about roughly about 1 Gigabyte o
 
 
 ### Step 1:
-Download the code from the GitHub repository.
+Download the code from the GitHub repository.  
 ![download zip](https://user-images.githubusercontent.com/81348353/207201784-3dcf7ab3-9b0f-4454-bfac-4252dea9e47b.PNG)
 
 ### Step 2:
 Decompress the downloaded folder using winRAR in whatever location on your computer of your selection.
 
 ### Step 3:
-Open PyCharm and select the open option.
-
+Open PyCharm and select the open option.  
 ![PyCharm Open](https://user-images.githubusercontent.com/81348353/207202408-e78ee0fc-3de7-497e-a2ae-11e0cd7926f1.PNG)
 This should be the default menu when opening PyCharm, if you do not see this menu it is likely you are in a folder and would need to go to file->open to get to the same place.
 
 ### Step 4:
-From there find the decompressed folder, select it with your mouse, and then click ok to open it using PyCharm.
+From there find the decompressed folder, select it with your mouse, and then click ok to open it using PyCharm.  
 ![Opening Folder](https://user-images.githubusercontent.com/81348353/207202664-134e2390-574a-4feb-bf13-1cdd2ce706a0.PNG)
 
 ### Step 5:
 Word of warning, there will most likely be some error warnings related to git in the bottom right, these can be safely ignored.
 
-From here, to get to running the program, double click hpfc.py on the left sidebar to open it.
+From here, to get to running the program, double click hpfc.py on the left sidebar to open it.  
 ![hpfc sidebar](https://user-images.githubusercontent.com/81348353/207202806-6109e338-8f39-404e-a122-780ab956a2e4.PNG)
 
 ### Step 6:
-The next step is to either press the run button in the top right of the pycharm window or use the keybinding "Shift+F10" to run the program.
+The next step is to either press the run button in the top right of the pycharm window or use the keybinding "Shift+F10" to run the program.  
 ![run pycharm](https://user-images.githubusercontent.com/81348353/207203066-36608691-0415-4958-bda6-9a712847f9f8.PNG)
 
 From here the program should run and go through 1 iteration. This is unlikely to produce a better model, so it should instead most likely display the previous best's graphs with matplotlib windows and the metrics inside the console.
 
 ### Step 7:
-If you would like to attempt to produce new better models you can change the settings contained with arguments.txt to make that possible. An explanation for how to do that and what each argument is will be below. The current model was produced using the arguments given in the photo with only one change, the amount of iterations.
-
+If you would like to attempt to produce new better models you can change the settings contained with arguments.txt to make that possible. An explanation for how to do that and what each argument is will be below. The current model was produced using the arguments given in the photo with only one change, the amount of iterations.  
 ![arguments example](https://user-images.githubusercontent.com/81348353/207203467-1ccb6ee8-87fe-4646-86c9-9102ae1d0091.PNG)
 
 Created models are stored under Data/Models, if a model is unsatisfactory it is recommended to delete models starting from the highest model, ie. model_x, with x being the highest in the list, until a satisfactory model is reached. Deleting models that are not the highest model will result in errors. If the models are not listed in the folder as:
